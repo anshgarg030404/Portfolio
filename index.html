@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <nav class="w-full bg-[#383838]  md:static">
+      <div class="cursor-pointer px-6 flex justify-between items-center">
+        <img
+          class="size-1/6 md:size-1/12 rounded-3xl relative"
+          src="Playful Typographic Design Studio Brand Logo.png"
+          alt="logo"
+        />
+        <div class="md:relative absolute md:flex md:space-x-8  invisible md:visible  md:justify-end ">
+            <ul class=" md:flex md:space-x-8   text-white font-sans font-semibold  ">
+                <li  class="cursor-pointer">Home</li>
+                <li class="cursor-pointer">About Me</li>
+                <li class="cursor-pointer">Education</li>
+                <li class="cursor-pointer">Projects</li>
+            </ul>
+        </div>
+        <span class="flex md:hidden">
+          <label for="hamburger"
+            ><img
+              src="reorder-three-outline.svg"
+              class="w-10 cursor-pointer bg-white rounded-3xl h-10 font-bold z-10"
+              alt=""
+          /></label>
+          <select
+            id="hamburger"
+            class="bg-transparent w-10 h-10 opacity-0 z-0 absolute"
+          >
+            <option selected class="">Home</option>
+            <option class="">About Me</option>
+            <option class="">Education</option>
+            <option class="">Projects</option>
+          </select>
+        </span>
+      </div>
+    </nav>
+    <main class="bg-[#1E1E1E]">
+        <div class="p-10 md:flex md:justify-center ">
+                <img src="Ansh garg.gif" class="w-full md:w-[70%] rounded-3xl aspect-video " alt="aspect">
+        </div>
+        <div class="p-7">
+            <div class="text-justify md:text-justify lg:flex lg:items-center lg:justify-around h-fit lg:space-x-6 ">
+                 <h1 class="text-white font-mono text-xs lg:w-fit  font-semibold md:text-xl lg:text-xl lg:text-justify lg:max-w-[50%]">Hello viewer, I am currently pursuing my B.Tech from GGSIPU-EDC (USAR) in the Automation and Robotics branch. I have been in the field of Web Development since last 6 months. I am currently working on only front-end development and aiming to become a full stack web developer. This is my portfolio website, which showcases my projects, resume and my qualifications.</h1>
+                 <img class="size-56 absolute opacity-0 lg:relative lg:opacity-100 rounded-3xl" src="programer.gif" alt="">
+            </div>
+        </div>
+        <div class="p-7 lg:pt-36 w-full h-fit border-t-2">
+            <div class="grid grid-flow-row grid-rows-1 gap-5 md:flex justify-center items-center md:justify-around ">
+                <h1 class=" text-6xl  opacity-100 font-mono text-orange-400 lg:text-8xl">RESUME</h1>
+                <a href="" class="flex justify-center"><img class="size-48 hover:scale-110 md:w-full md:h-64" src="male-employee-cv-resume-5684912-4737125.webp" alt="resume"></a>
+            </div>
+        </div>
+        <div class="py-10 px-5 border-t-2 lg:px-10">
+            <div class="px-5">
+                <h1 class="text-orange-400 text-6xl font-mono flex justify-center">Projects</h1>
+            </div>
+            <div class="grid border-2 border-orange-400 lg:border-4 max-h-svh px-3 grid-flow-row lg:max-h-80 gap-4  overflow-x-auto mt-20 pb-20">
+                <div class="project_1 grid w-full lg:grid-cols-2 space-y-3 gap-5 ">
+                    <a href="https://main--netflix-landingpage12334445-clone.netlify.app/"><img class="size-full" src="Screenshot 2024-02-02 at 10.25.02 PM.png" alt="Netflix-landing"></a>
+                    <div class="space-y-7">
+                        <h1 class="text-slate-300 font-semibold font-mono text-center text-xl md:text-3xl uppercase">Netflix-landing page-clone(Frontend Only)</h1>
+                        <p class="font-mono text-center text-white absolute opacity-0 lg:relative lg:opacity-100">"Experience the essence of Netflix with our HTML and CSS clone of the iconic streaming platform's landing page. Dive into a world of unlimited entertainment, featuring stunning visuals and seamless navigation. Sign up now and start your binge-watching journey!"</p>
+                    </div>
+                </div>
+                <div class="project_2  grid lg:grid-cols-2 space-y-3 gap-5 ">
+                    <a href="https://main--google-meet-clone123455.netlify.app/"><img class="size-full" src="Screenshot 2024-02-04 at 1.22.32 PM.png" alt="googlemeet-landing"></a>
+                    <div class="space-y-7">
+                        <h1 class="text-slate-300 font-semibold font-mono text-center text-xl md:text-3xl uppercase">Google-Meet-landing page-clone(Frontend Only)</h1>
+                        <p class="font-mono text-center text-white absolute opacity-0 lg:relative lg:opacity-100">"Step into the realm of virtual meetings with our HTML and CSS rendition of the Google Meet landing page. Embrace effortless collaboration and connectivity through a clean, intuitive interface. Join meetings seamlessly and enhance productivity with ease."</p>
+                    </div>
+                </div>
+                <div class="project_3  grid lg:grid-cols-2 space-y-3 gap-5 ">
+                    <a href="https://perception-club-website1234.netlify.app"><img class="size-full" src="Screenshot 2024-02-05 at 11.33.41 AM.png" alt="perception-club-website1234"></a>
+                    <div class="space-y-7">
+                        <h1 class="text-slate-300 font-semibold font-mono text-center text-xl md:text-3xl uppercase">Perception-Website(Publication Club)</h1>
+                        <p class="font-mono text-center text-white absolute opacity-0 lg:relative lg:opacity-100">"College publication website, created by me and my team. This is another webpage created using just HTML and CSS and just a tinch of JS. I offers valueable info. about the events and other activities taking place in our college"</p>
+                    </div>
+                </div>
+                <!-- <div class="project_4  grid lg:grid-cols-2 space-y-3 gap-5 ">
+                    <a href="https://main--google-meet-clone123455.netlify.app/"><img class="size-full" src="Screenshot 2024-02-05 at 11.33.41 AM.png" alt=""></a>
+                    <div class="space-y-7">
+                        <h1 class="text-slate-300 font-semibold font-mono text-center text-xl md:text-3xl uppercase">Google-Meet-landing page-clone(Frontend Only)</h1>
+                        <p class="font-mono text-center text-white absolute opacity-0 lg:relative lg:opacity-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae aperiam cumque esse perspiciatis maxime nemo sunt blanditiis unde facere recusandae nihil in quo error quis quaerat fugit vero, hic corporis.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="border-t-2 mt-20 py-16 md:px-10 px-2 lg:px-20 md:space-y-10 lg:space-y-24">
+            <div class="">
+                <h1 class="text-orange-400 text-4xl md:text-6xl font-mono flex text-center justify-start">Qualifications</h1>
+            </div>
+            <ul class="flex flex-col items-center text-white self-center py-10 lg:space-y-32 space-y-10 md:space-y-20 ">
+                <li class="">
+                    <h1 class="font-semibold text-orange-200 font-mono md:text-2xl lg:text-4xl">Class 10 (A.E.S Janak Puri)</h1>
+                    <p class="md:text-xl lg:text-3xl md:pt-3 lg:pt-6">CBSE - 84% (2019 - 2020)</p>
+                </li>
+                <li>
+                    <h1 class="font-semibold text-orange-200 font-mono md:text-2xl lg:text-4xl">Class 12 (A.E.S Janak Puri)</h1>
+                    <p class="md:text-xl lg:text-3xl md:pt-3 lg:pt-6">CBSE - 95% (2019 - 2020)</p>
+                </li>
+                <li>
+                    <h1 class="font-semibold text-orange-200 font-mono md:text-2xl lg:text-4xl">B.Tech (G.G.S.I.P.U - EDC)</h1>
+                    <p class="md:text-xl lg:text-3xl md:pt-3 lg:pt-6">CGPA - 7.845 (2022 - 2026)</p>
+                </li>
+            </ul>
+        </div>
+        <div class="md:pt-20 py-10  border-t-2 px-5">
+            <div class="flex flex-col items-center text-orange-400 text-3xl md:text-5xl lg:text-6xl md:space-y-5 lg:space-y-10 font-mono pb-5">
+                <h1 class="text-xl md:text-3xl lg:text-5xl">Why, hello there</h1>
+                <h1>Wanna connect??</h1>
+            </div>
+            <div class="buttons w-fit grid gap-5 grid-flow-row grid-cols-1 md:grid-cols-2 md:pt-10 md:w-fit mx-5 lg:gap-x-24 lg:mx-52 ">
+                <a href="https://www.linkedin.com/in/ansh-garg-777ab7258/" class="flex flex-col py-2 px-3  rounded-md shadow-inner shadow-black hover:scale-x-110 transition ease-in-out delay-150 bg-orange-200 ">
+                    <p class="text-xl md:text-2xl lg:text-3xl text-black font-semibold md:self-start ">LinkedIn</p>
+                    <p  class="text-sm md:text-lg lg:text-xl  text-slate-700 md:self-start">Here, i post my achievements and certificates.</p>
+                </a>
+                <a href="https://github.com/anshgarg030404" class="flex flex-col py-2 px-3  rounded-md shadow-inner shadow-black hover:scale-x-110 transition ease-in-out delay-150 bg-orange-200 ">
+                    <p class="text-xl md:text-2xl lg:text-3xl text-black font-semibold md:self-start">GitHub</p>
+                    <p  class="text-sm md:text-lg lg:text-xl  text-slate-700 md:self-start">Here, I push my projects and my development work.</p>
+                </a>
+                <a href="https://www.instagram.com/a_n_s_h_a_t_b/" class="flex flex-col py-2 px-3  rounded-md shadow-inner shadow-black hover:scale-x-110 transition ease-in-out delay-150 bg-orange-200 ">
+                    <p class="text-xl md:text-2xl lg:text-3xl text-black font-semibold md:self-start">Instagram</p>
+                    <p  class="text-sm md:text-lg lg:text-xl  text-slate-700 md:self-start">Here, I share my social life and please don't hesitate to DM.</p>
+                </a>
+                <a href="mailto:anshgarg030404@gmail.com" class="flex flex-col py-2 px-3  rounded-md shadow-inner shadow-black hover:scale-x-110 transition ease-in-out delay-150 bg-orange-200 ">
+                    <p class="text-xl md:text-2xl lg:text-3xl text-black font-semibold md:self-start">G-Mail</p>
+                    <p  class="text-sm md:text-lg lg:text-xl  text-slate-700 md:self-start">Just send me a mail for any work or project. I will reply as soon as i get it.</p>
+                </a>
+                <!-- <a href="" class="flex flex-col py-2 px-3  rounded-md shadow-inner shadow-black hover:scale-x-110 transition ease-in-out delay-150 bg-orange-200 ">
+                    <p class="text-xl md:text-2xl lg:text-3xl text-black font-semibold md:self-start">G-Mail</p>
+                    <p  class="text-sm md:text-lg lg:text-xl  text-slate-700 md:self-start">Just send me a mail for any work or project. I will reply as soon as i get it.</p>
+                </a> -->
+            </div>
+        </div>
+        <div class="bg-black mt-10 rounded-md">
+            <div class="p-5 lg:pb-52 space-y-3 flex flex-col items-center">
+                <h1 class="text-slate-400 font-light text-xs lg:text-sm">Design and Created by Ansh Garg</h1>
+                <img src="Ansh-SignatureGenerator-2.svg" class="size-1/6 md:size-1/12  " alt="Signature">
+             </div>
+        </div>
+    </main>
+  </body>
+</html>
